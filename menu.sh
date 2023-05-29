@@ -10,7 +10,7 @@ PURPLE='\033[0;35m'
 CYAN='\033[0;36m'
 NC='\033[0;37m'
 clear
-echo -e " "
+echo -e ""
 # DNS Patch
 tipeos2=$(uname -m)
 # OS Uptime
