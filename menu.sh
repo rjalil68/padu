@@ -75,7 +75,7 @@ echo -e "$green Script Version       :$CYAN $Sver"
 echo -e "${green}════════════════════════════════════════════════════════════${NC}"
 echo -e "${BGBLUE}                     [ PREMIUM SCRIPT ]                     ${NC}"
 echo -e "${green}════════════════════════════════════════════════════════════${NC}"
-figlet VPN-BUDAKGERIK | lolcat
+echo -e "$Lyellow Premium VPS by @VPNBUDAKGERIK"$NC
 echo -e "${green}════════════════════════════════════════════════════════════${NC}"
 echo -e "${BGBLUE}                     [ MAIN MENU ]                          ${NC}"
 echo -e "${green}════════════════════════════════════════════════════════════${NC}"
