@@ -22,4 +22,4 @@ src="https://img.shields.io/badge/Service-Xray-success.svg">  <img src= "https:/
 
 ## Credit :
 
-*   Modded Script by    t.me/akubudakgerik
+*   Modded Script by    t.me/VPN-BUDAKGERIK

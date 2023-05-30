@@ -281,4 +281,4 @@ echo -e " Nginx             : Nginx Service is "$red"not running (Error)"$NC""
 fi
 echo -e ""
 echo -e "${green}JIKA TERDAPAT NOT RUNNING, PLEASE REPORT TO ADMIN FOR FIX$NC"
-echo -e "${green}Report to VPN-BUDAKGERIK @akubudakgerik"
+echo -e "${green}Report to @VPN-BUDAKGERIK"

@@ -11,5 +11,5 @@ echo '         	        UNLIMITED SEGALANYA!              " | lolcat
 echo ''
 echo '         ......................................     " | lolcat
 echo '                      Build in 2023                 " | lolcat
-echo '                  TELEGRAM : @akubudakgerik               " | lolcat
+echo '                  TELEGRAM : @VPN-BUDAKGERIK               " | lolcat
 echo -e "=================================================" | lolcat

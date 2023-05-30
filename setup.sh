@@ -48,7 +48,7 @@ echo '...........................................................' | lolcat
 echo -e "$ORANGE                  Autoscript By VPN-BUDAKGERIK"$NC
 echo -e "$ORANGE                   NEW FULL VERSION 2023 "$NC
 echo -e "$ORANGE                    CONTACT TELEGRAM"$NC
-echo -e "$ORANGE                       @akubudakgerik"$NC
+echo -e "$ORANGE                       @VPN-BUDAKGERIK"$NC
 echo '...........................................................' | lolcat
 echo ''
 echo -e "$ORANGE                       Tunggu 5 Saat!                       "$NC
@@ -80,7 +80,7 @@ echo '                            ...                           '
 echo '        Anda Tidak Dibenarkan Menggunakan Script ini!     '
 echo '                            ...                           '
 echo '    Hubungi Saya di Telegram Untuk Mendapatkan Kebenaran!     '
-echo '                        t.me/akubudakgerik     '
+echo '                        t.me/VPN-BUDAKGERIK     '
 sleep 20
 exit 0
 fi
@@ -104,8 +104,8 @@ if [ -f "/etc/v2ray/domain" ]; then
 echo "Script Already Installed"
 exit 0
 fi
-mkdir /etc/akubudakgerik
-touch /etc/akubudakgerik/ssh_account
+mkdir /etc/VPN-BUDAKGERIK
+touch /etc/VPN-BUDAKGERIK/ssh_account
 mkdir /etc/v2ray
 mkdir /etc/xray
 mkdir /var/lib/premium-script;
@@ -161,7 +161,7 @@ rm -f /root/ohp.sh
 echo "1.2" > /home/ver
 
 echo "echo '              AutoScript By VPN-BUDAKGERIK             '" >> .profile
-echo "echo '              TELEGRAM : @akubudakgerik            '" >> .profile
+echo "echo '              TELEGRAM : @VPN-BUDAKGERIK            '" >> .profile
 echo "echo ''" >> .profile
 echo "echo '       Sila Type: 'menu' untuk tampilan menu padu      '" >> .profile
 echo "echo ''" >> .profile
@@ -212,7 +212,7 @@ echo "   - White Label" | tee -a log-install.txt
 echo "   - Installation Log --> /root/log-install.txt"  | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
 echo ""
-echo "   - DEV TELEGRAM            : @akubudakgerik"  | tee -a log-install.txt
+echo "   - DEV TELEGRAM            : @VPN-BUDAKGERIK"  | tee -a log-install.txt
 echo ""
 echo "------------------Script Created By VPN-BUDAKGERIK---------------------" | tee -a log-install.txt
 

@@ -8,7 +8,7 @@ BGYELLOW='\e[1;43m'
 BGBLUE='\e[1;44m'
 NC='\e[0m'
 
-NUMBER_OF_CLIENTS=$(grep -c -E "^### " "/etc/akubudakgerik/ssh_account")
+NUMBER_OF_CLIENTS=$(grep -c -E "^### " "/etc/VPN-BUDAKGERIK/ssh_account")
 	if [[ ${NUMBER_OF_CLIENTS} == '0' ]]; then
 		clear
 		echo ""
@@ -22,7 +22,7 @@ echo -e "${GREEN}═════════════════════
 echo -e "${BGBLUE}          HAPUS AKUN SSH          "
 echo -e "${GREEN}══════════════════════════════════${NC}"
 	echo "     No User      Expired"
-	grep -E "^### "     "/etc/akubudakgerik/ssh_account" | cut -d ' ' -f 2-3 | nl -s ') '
+	grep -E "^### "     "/etc/VPN-BUDAKGERIK/ssh_account" | cut -d ' ' -f 2-3 | nl -s ') '
 	echo ""
 	echo -e "${GREEN}══════════════════════════════════${NC}"
 	until [[ ${CLIENT_NUMBER} -ge 1 && ${CLIENT_NUMBER} -le ${NUMBER_OF_CLIENTS} ]]; do
@@ -34,9 +34,9 @@ echo -e "${GREEN}═════════════════════
 			read -rp "Choose Number [1-${NUMBER_OF_CLIENTS}]: " CLIENT_NUMBER
 		fi
 	done
-user=$(grep -E "^### " "/etc/akubudakgerik/ssh_account" | cut -d ' ' -f 2 | sed -n "${CLIENT_NUMBER}"p)
-exp=$(grep -E "^### " "/etc/akubudakgerik/ssh_account" | cut -d ' ' -f 3 | sed -n "${CLIENT_NUMBER}"p)
-sed -i "/^### $user $exp/d" /etc/akubudakgerik/ssh_account
+user=$(grep -E "^### " "/etc/VPN-BUDAKGERIK/ssh_account" | cut -d ' ' -f 2 | sed -n "${CLIENT_NUMBER}"p)
+exp=$(grep -E "^### " "/etc/VPN-BUDAKGERIK/ssh_account" | cut -d ' ' -f 3 | sed -n "${CLIENT_NUMBER}"p)
+sed -i "/^### $user $exp/d" /etc/VPN-BUDAKGERIK/ssh_account
 if getent passwd $user > /dev/null 2>&1; then
         userdel $user
 clear

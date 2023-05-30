@@ -1,6 +1,6 @@
 #!/bin/bash
 #O
-#By akubudakgerik
+#By VPN-BUDAKGERIK
 #Direct Proxy Squid For OpenVPN TCP
 RED='\e[1;31m'
 GREEN='\e[0;32m'
@@ -31,8 +31,8 @@ chmod +x /usr/bin/ohpserver
 #Buat File OpenVPN TCP OHP
 cat > /etc/openvpn/tcp-ohp.ovpn <<END
 ############# WELCOME TO #############
-##########    akubudakgerik VPN   ############
-###### akubudakgerik VPN OHP SERVER ########
+##########    VPN-BUDAKGERIK VPN   ############
+###### VPN-BUDAKGERIK VPN OHP SERVER ########
 setenv CLIENT_CERT 0
 setenv opt block-outside-dns
 setenv FRIENDLY_NAME "VPN-BUDAKGERIK OHP"
@@ -80,7 +80,7 @@ cat > /etc/systemd/system/ohp.service <<END
 [Unit]
 Description=Direct Squid Proxy For OpenVPN TCP By VPN-BUDAKGERIK
 Documentation=https://VPN-BUDAKGERIK
-Documentation=https://t.me/akubudakgerik
+Documentation=https://t.me/VPN-BUDAKGERIK
 Wants=network.target
 After=network.target
 
@@ -100,4 +100,4 @@ echo ""
 echo -e "${GREEN}Done Installing OHP Server${NC}"
 echo -e "Port OVPN OHP TCP: $ohpp"
 echo -e "Link Download OVPN OHP: http://$MYIP:81/tcp-ohp.ovpn"
-echo -e "Script By akubudakgerik VPN"
+echo -e "Script By VPN-BUDAKGERIK VPN"

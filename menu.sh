@@ -75,7 +75,7 @@ echo -e "$green Script Version       :$CYAN $Sver"
 echo -e "${green}════════════════════════════════════════════════════════════${NC}"
 echo -e "${BGBLUE}                     [ PREMIUM SCRIPT ]                     ${NC}"
 echo -e "${green}════════════════════════════════════════════════════════════${NC}"
-echo -e "$Lyellow Premium VPS by @VPNBUDAKGERIK"$NC
+figlet VPN-BUDAKGERIK | lolcat
 echo -e "${green}════════════════════════════════════════════════════════════${NC}"
 echo -e "${BGBLUE}                     [ MAIN MENU ]                          ${NC}"
 echo -e "${green}════════════════════════════════════════════════════════════${NC}"
@@ -99,7 +99,7 @@ echo -e "$PURPLE (14) $NC Restore Data Vps      $PURPLE (22) $NC Displaying Syst
 echo -e "$PURPLE (15) $NC WEBMIN MENU           $PURPLE (23) $NC Info Script Auto "
 echo -e "$PURPLE (16) $NC UPDATE TO KERNEL      $PURPLE (24) $NC Show System Status "
 echo -e "${green}════════════════════════════════════════════════════════════${NC}"
-echo -e "$Lyellow Premium VPS by @akubudakgerik"$NC
+echo -e "$Lyellow Premium VPS by @VPN-BUDAKGERIK"$NC
 echo -e "$Lyellow Thank you for using script by VPN-BUDAKGERIK"$NC
 echo -e "${green}════════════════════════════════════════════════════════════${NC}"
 echo -e ""

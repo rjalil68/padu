@@ -14,10 +14,10 @@ ver=$VERSION_ID
 country=MY
 state=Malaysia
 locality=Malaysia
-organization=akubudakgerik.tk
-organizationalunit=akubudakgerik.tk
-commonname=akubudakgerik.tk
-email=admin@akubudakgerik.tk
+organization=VPN-BUDAKGERIK.tk
+organizationalunit=VPN-BUDAKGERIK.tk
+commonname=VPN-BUDAKGERIK.tk
+email=admin@VPN-BUDAKGERIK.tk
 
 # simple password minimal
 wget -O /etc/pam.d/common-password "https://raw.githubusercontent.com/rjalil68/padu/main/password"

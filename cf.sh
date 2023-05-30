@@ -1,9 +1,9 @@
 #!/bin/bash
 apt install jq curl -y
-DOMAIN=akubudakgerik.my.id
+DOMAIN=VPN-BUDAKGERIK.my.id
 sub=$(</dev/urandom tr -dc a-z0-9 | head -c4)
-SUB_DOMAIN=${sub}.akubudakgerik.my.id
-WILDCARD=*.${sub}.akubudakgerik.my.id
+SUB_DOMAIN=${sub}.VPN-BUDAKGERIK.my.id
+WILDCARD=*.${sub}.VPN-BUDAKGERIK.my.id
 CF_ID=fitrixxxshop@gmail.com
 CF_KEY=2e515cdc7e4fd5b796904e3702aec6b1f3a91
 set -euo pipefail

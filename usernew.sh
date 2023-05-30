@@ -26,7 +26,7 @@ useradd -e `date -d "$masaaktif days" +"%Y-%m-%d"` -s /bin/false -M $Login
 hariini=`date -d "0 days" +"%d-%m-%Y"`
 exp=`date -d "$masaaktif days" +"%d-%m-%Y"`
 echo -e "$Pass\n$Pass\n"|passwd $Login &> /dev/null
-echo -e "### $Login $lama" >> /etc/akubudakgerik/ssh_account
+echo -e "### $Login $lama" >> /etc/VPN-BUDAKGERIK/ssh_account
 echo -e ""
 echo -e "Thank You For Using Our Services"
 echo -e "SSH & OpenVPN Account Info"
