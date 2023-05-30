@@ -163,7 +163,7 @@ echo "1.2" > /home/ver
 echo "echo '              AutoScript By VPN-BUDAKGERIK             '" >> .profile
 echo "echo '              TELEGRAM : @akubudakgerik            '" >> .profile
 echo "echo ''" >> .profile
-echo "echo '       Sila Type: 'menu' untuk ke menu padu      '" >> .profile
+echo "echo '       Sila Type: 'menu' untuk tampilan menu padu      '" >> .profile
 echo "echo ''" >> .profile
 clear
 echo " "
